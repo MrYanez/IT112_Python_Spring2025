@@ -1,0 +1,11 @@
+{
+    "name": "Nahum",
+    "age": 35,
+    "city": "Seattle",
+    "is_employee": true,
+    "skills": [
+        "Python",
+        "JavaScript",
+        "SQL"
+    ]
+}
