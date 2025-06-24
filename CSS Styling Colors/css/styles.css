@@ -1,0 +1,21 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: purple;
+}
+
+p {
+  background-color: yellow;
+}
+
+button {
+  background-color: darkblue;
+  color: white;
+}
