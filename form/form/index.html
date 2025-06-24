@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Order</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <form method="POST" action="/submit">
+    <h1>Food Order Form</h1>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required>
+
+    <label for="foodPreference">Food Preference:</label>
+    <select id="foodPreference" name="foodPreference" required>
+      <option value="">Choose food</option>
+      <option value="chicken">Chicken</option>
+      <option value="beef">Beef</option>
+      <option value="fish">Fish</option>
+    </select>
+
+    <label for="allergies">Allergies:</label>
+    <textarea id="allergies" name="allergies"></textarea>
+
+    <button type="submit">Send Order</button>
+  </form>
+</body>
+</html>
